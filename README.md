@@ -1,2 +1,8 @@
 # miRlastic_HNSCC
-Package for inference of miRNA-target interactions using transcriptomic data as well as prior knowledge and functional annotation of target genes by exploiting the local structure of the inferred network.
+miRlastic is a tool to systematically screen for putative mi-mRNA interactions using an elastic-net penalized regression model. 
+miRNA target predictions serve as an interaction graph to be validated by given transcriptome expression measurements. For each mRNA an elastic-net penalized regression model is calculated. MiRlastic returns the validated mi/mRNA relationships gathered from the regression models.
+
+
+Authors: Steffen Sass, Adriana Pitea
+
+
